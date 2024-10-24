@@ -14,7 +14,7 @@ Arviointitavat, millä seurataan sopivuutta ja tehokkuutta esimerkiksi tietoturv
 Haavoittuvuus tarkoittaa jonkun varan tai kontrollin heikkoutta, esimerkiksi tietoturvaloukkauksien riskiä. Tietoturvallisuuden hallinnassa haavoittuvuuksien tunnistaminen ja niiden poistaminen on tärkeässä roolissa riskien hallinnassa.
 
 ## b) ISO 27034-1 - 5
-
+ISO 27034-1 kuuluu ISO 27000 sarjan piiriin, mutta keskittyy erityisesti sovellusten tietoturvaan ja tarjoaakin ohjeita sekä säädöksiä, millä ohjataan organisaatioita integroimaan tietoturva laitteiden sekä verkkojen lisäksi myös itse ohjelmistoihin ja sovelluksiin.
 
 ## c) Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä
 
