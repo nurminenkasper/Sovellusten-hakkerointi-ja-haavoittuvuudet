@@ -3,10 +3,10 @@
 ## a) SFS-EN ISO/IEC 27000:2020
 
 
-## b)
+## b) ISO 27034-1 - 5
 
 
-## c)
+## c) Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä
 
 
-## d) 
+## d) Asenna Debian 12-Bookworm virtuaalikoneeseen
