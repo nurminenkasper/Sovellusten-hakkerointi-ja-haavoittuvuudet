@@ -3,7 +3,7 @@
 ## a) SFS-EN ISO/IEC 27000:2020:en
 
 ### 3.2 Attack
-
+Hyökkäyksen yritys, millä yritetään aiheuttaa harmia esimerkiksi paljastamalla, muokkaamalla, varastamalla tai saamalla oikeus suojattuihin tietoihin.
 ### 3.31 Information security event
 
 ### 3.56 Requirement
