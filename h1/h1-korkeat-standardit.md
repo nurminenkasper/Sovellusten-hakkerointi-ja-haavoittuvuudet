@@ -20,6 +20,6 @@ ISO 27034-1 kuuluu ISO 27000 sarjan piiriin, mutta keskittyy erityisesti sovellu
 
 
 ## d) Asenna Debian 12-Bookworm virtuaalikoneeseen
-
+Debian 12 asennettu virtuaalikoneelle. Lisäksi päivitetty kaikki ohjelmat, otettu käyttöön palomuuri ja asennettu Virtualbox Guest Additions.
 
 ## Lähteet
