@@ -4,8 +4,8 @@
 
 ### 3.2 Attack
 Hyökkäyksen yritys, millä yritetään aiheuttaa harmia esimerkiksi paljastamalla, muokkaamalla, varastamalla tai saamalla oikeus suojattuihin tietoihin.
-### 3.31 Information security event
-
+### 3.31 Information security incident
+Yksittäinen tai sarja tietoturvaan liittyviä tapahtumia, missä on riskinä vaarantua esimerkiksi yrityksen toiminta. Tapahtumassa vaarantuu luottamuksellisus, eheys ja saatavuus.
 ### 3.56 Requirement
 
 ### 3.58 Review
