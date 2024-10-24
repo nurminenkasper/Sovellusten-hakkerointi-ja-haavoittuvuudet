@@ -24,7 +24,11 @@ Debian 12 asennettu virtuaalikoneelle. Lisäksi päivitetty kaikki ohjelmat, ote
 
 ## Lähteet
 Karvinen T. & Iso-Anttila L. H1 Korkeat standardit. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/#h1-korkeat-standardit Luettu 23.10.2024
+
 Karvinen T. Install Debian on Virtualbox. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 23.10.2024
+
 ISO27000-2020-en. Haaga-Helia ammattikorkeakoulu versio. Luettu 24.10.2024
+
 ISO27034-1-1719737070995_6. Haaga-Helia ammattikorkeakoulu versio. Luettu 24.10.2024
+
 Arter Oy, Markus Meurman. 25.10.2021. Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä -Podcast. Kuunneltavissa: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/ Kuunneltu 24.10.2024
