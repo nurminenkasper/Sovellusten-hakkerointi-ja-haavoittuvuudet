@@ -17,7 +17,16 @@ Haavoittuvuus tarkoittaa jonkun varan tai kontrollin heikkoutta, esimerkiksi tie
 ISO 27034-1 kuuluu ISO 27000 sarjan piiriin, mutta keskittyy erityisesti sovellusten tietoturvaan ja tarjoaakin ohjeita sekä säädöksiä, millä ohjataan organisaatioita integroimaan tietoturva laitteiden sekä verkkojen lisäksi myös itse ohjelmistoihin ja sovelluksiin.
 
 ## c) Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä
-
+Maestrolla tehdään toiminnanohjausjärjestelmiä, työkaluja millä liiketoimintaa pyöritetään. Verkkokauppa.
+Taloushallintopuolella tilitoimistonasiakkaita, heille mobiilisovelluksia yms.
+Absoluuttista tietoturvaa ei ole. Mikään ohjelmisto ei ole täysin tietoturvallinen.
+Hallintakeinoja ja pelisääntöjä pitää olla tietoturvan hallinnassa, koska ihmiset ovat erehtyväisiä.
+Yleisessä tietoturvahallinnasa ja siihen liittyvässä keskustelussa on hyvä puhua tilanteeseen sopivalla kielellä ja tavalla, niin että kaikki keskustelijat ymmärtävät ammattinimikkeestä huolimatta.
+Automatisaatio on tärkeässä osassa tietoturvaa, jottai pysytään ajantasalla nopeasti ja kattavasti. Automaatio ei ole kuitenkaan itsestäänselvyys, vaan sitäkin pitää ylläpitää ja pitää ajantasalla.
+Roolien jakaminen ja erilaisia tehtäviä, esim toiminnalliset ja ei toiminnalliset vaatimukset tarvitsevat eri tekijöitä. Suunnittelun merkitys sekä yhteyistyö keskeisessä roolissa.
+Saatavuus on osa tietoturvaa, joten kaikki järjestelmien tiedot on tärkeitä. Tietoturva tulee aina ottaa huomioon, riippumatta tiedon sisällöstä.
+Tietoturvan vaatimukset riippuvat tietenkin sisällöstä, jotkin tiedot ovat tärkeempiä turvata kuin toiset, mutta kaikki data on tarpeellista turvata.
+Pyrkikää löytämään hyvä kokonaiskuva tietoturvata, eikä ratkoa vai yksittäisiä näkökulmia tai osa-alueita.
 
 ## d) Asenna Debian 12-Bookworm virtuaalikoneeseen
 Debian 12 asennettu virtuaalikoneelle. Lisäksi päivitetty kaikki ohjelmat, otettu käyttöön palomuuri ja asennettu Virtualbox Guest Additions.
