@@ -20,3 +20,6 @@ Haavoittuvuus tarkoittaa jonkun varan tai kontrollin heikkoutta, esimerkiksi tie
 
 
 ## d) Asenna Debian 12-Bookworm virtuaalikoneeseen
+
+
+## Lähteet
