@@ -12,7 +12,11 @@
 ### PortSwigger: Access control vulnerabilities and privilege escalation
 
 ### Karvinen 2006: Raportin kirjoittaminen
-
+- Raportin tulisi olla täsmällinen ja toistettava. Raportissa tulisi atkiivisesti kertoa mitä teit ja mitä tapahtui. Raportin kirjoittaminen työtä tehdessä on suositeltavaa.
+- Raportissa olisi hyvä myös sisällyttää ympäristö, jossa työ tehtiin, koska monet asiat ja mahdolliset ongelmat toimivat sekä ilmenevät eri tavalla tietokoneissa ja verkoissa.
+- Kirjoita menneessä aikamuodossa ja kerro tarkasti, mitä komentoja annoit tai mitä klikkasit. Raportoi kaikki tulokset ja mahdolliset viat ohjelmissa, työkaluissa ja laitteissa.
+- Raportin tulee olla helppolukuinen. Käytä väliotsikoita, kirjoita selkeää kieltä ja viittaa mahdollisiin lähteisiin.
+- Vältä sepittämistä, plagiointia ja kuvien luvatonta käyttöä.
 ### Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy
 
 ## a) Murtaudu 010-staff-only
@@ -30,3 +34,10 @@
 ## h) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
 
 ## Lähteet
+OWASP Top 10:2021. A01:2021 – Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ Luettu: 31.10.2024
+
+Karvinen T. Raportin kirjoittaminen 2016. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu: 31.10.2024
+
+Nurminen Kasper. Linux Kurssin viikkotehtävä. Luettavissa: https://github.com/nurminenkasper/Linux-palvelimet/blob/main/h1-oma-linux.md Luettu: 31.10.2024
+
+
