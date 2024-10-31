@@ -14,6 +14,10 @@
 ### PortSwigger: Access control vulnerabilities and privilege escalation
 - Artikkelissa käsitellään pääsynhallintaa ja se on jaettu kahteen eri pystysuoraan & vaakasuoraan pääsynhallintaan.
 - Pystysuora pääsynhallinta rajoittaa pääsyä tiettyihin toimintoihin käyttäjätyypin mukaan, esimerkiksi jaottelua ylläpitäjien ja tavallisten käyttäjien välillä
+- Vaakasuora pääsynhallinta rajoittaa pääsyä resursseihin tiettyjen käyttäjien välillä, kuten esimerkiksi käyttäjän omiin pankkitileihin ja siirtoihin liittyviin tietoihin
+- Pääsynhallintaa voidaan rikkoa useilla eri tavoilla, näistä artikkeleissa on muutamia esimerkkejä.
+- Käyttäjä pääsee käsiksi toimintoihin, joihin hänellä ei ole oikeutta kuten esimeriksi tavallinen käyttäjä pääsee admininstrator-sivulle. Tätä kutsutaan pystysuoran pääsynhallinnan rikkomiseksi.
+- Suojaamaton toiminnallisuus on hyvin yleinen tapa rikkoa pääsynhallintaa. Tässä tavassa esimerkiksi administrator sivuja ei ole suojattu pääsyltä ja niihin pääsee käsiksi kuka vain syöttämällä oikean osoitteen
 ### Karvinen 2006: Raportin kirjoittaminen
 - Raportin tulisi olla täsmällinen ja toistettava. Raportissa tulisi atkiivisesti kertoa mitä teit ja mitä tapahtui. Raportin kirjoittaminen työtä tehdessä on suositeltavaa.
 - Raportissa olisi hyvä myös sisällyttää ympäristö, jossa työ tehtiin, koska monet asiat ja mahdolliset ongelmat toimivat sekä ilmenevät eri tavalla tietokoneissa ja verkoissa.
@@ -44,5 +48,9 @@ Karvinen T. Raportin kirjoittaminen 2016. Tero Karvisen verkkosivut. Luettavissa
 Nurminen Kasper GitHub. Linux Kurssin viikkotehtävä. Luettavissa: https://github.com/nurminenkasper/Linux-palvelimet/blob/main/h1-oma-linux.md Luettu: 31.10.2024
 
 Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024
+
+Portswigger Access control vulnerabilities and privilege escalation. Luettavissa: https://portswigger.net/web-security/access-control Luettu: 31.10.2024
+
+
 
 
