@@ -12,7 +12,8 @@
 - Fuff avulla voi löytää web-palvelimilta piilotettuja hakemistoja, otsikoita tai POST-parametrejä
 - Fuffia voi testata paikallisesti ilman internet-yhteyttä. Tärkeää onkin muistaa, että penetraatiotestauksen teknkiikoiden käyttö tulee suorittaa lain sekä eettisten perjaatteiden puitteissa.
 ### PortSwigger: Access control vulnerabilities and privilege escalation
-
+- Artikkelissa käsitellään pääsynhallintaa ja se on jaettu kahteen eri pystysuoraan & vaakasuoraan pääsynhallintaan.
+- Pystysuora pääsynhallinta rajoittaa pääsyä tiettyihin toimintoihin käyttäjätyypin mukaan, esimerkiksi jaottelua ylläpitäjien ja tavallisten käyttäjien välillä
 ### Karvinen 2006: Raportin kirjoittaminen
 - Raportin tulisi olla täsmällinen ja toistettava. Raportissa tulisi atkiivisesti kertoa mitä teit ja mitä tapahtui. Raportin kirjoittaminen työtä tehdessä on suositeltavaa.
 - Raportissa olisi hyvä myös sisällyttää ympäristö, jossa työ tehtiin, koska monet asiat ja mahdolliset ongelmat toimivat sekä ilmenevät eri tavalla tietokoneissa ja verkoissa.
