@@ -25,3 +25,5 @@
 ## g) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 
 ## h) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+
+## Lähteet
