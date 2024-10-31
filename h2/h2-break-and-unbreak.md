@@ -42,4 +42,6 @@ Karvinen T. Raportin kirjoittaminen 2016. Tero Karvisen verkkosivut. Luettavissa
 
 Nurminen Kasper GitHub. Linux Kurssin viikkotehtävä. Luettavissa: https://github.com/nurminenkasper/Linux-palvelimet/blob/main/h1-oma-linux.md Luettu: 31.10.2024
 
+Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024
+
 
