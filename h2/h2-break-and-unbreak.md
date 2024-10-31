@@ -3,7 +3,10 @@
 ## x) Lue/katso/kuuntele ja tiivistä
 
 ### OWASP Top 10: A01 Broken Access Control
-
+- Broken Access Control, eli rikkinäiset käyttöoikeudet on yleisin haavoittuvuus OWASP Top 10 listalla
+- Broken Access Control johtaa siihen, että käyttäjät pääsevät käsiksi sovelluksen sisältöön, joihin heillä ei ole oikeutta päästä
+- Toimintoihin liittyy olennaisesti tietojen luvaton näkeminen, paljastaminen, muuttaminen sekä poistaminen.
+- Parhaimmat tavat estää on: Luotettavan palvelinpuolen koodin käyttäminen, estä oletuksena pääsy kaikkiin resursseihin paitsi julkisiin sekä toteuttaen pääsynhallinta kerran ja käytäen sitä uudelleen koko sovelluksessa, samalla minimoiden CORS-käyttö.
 ### Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
 
 ### PortSwigger: Access control vulnerabilities and privilege escalation
