@@ -26,7 +26,7 @@
 - Vältä sepittämistä, plagiointia ja kuvien luvatonta käyttöä.
 ### Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy
 
-### Rauta & HostOS
+## Rauta & HostOS
 
 - Asus X570 ROG Crosshair VIII Dark Hero AM4
 - AMD Ryzen 5800X3D
