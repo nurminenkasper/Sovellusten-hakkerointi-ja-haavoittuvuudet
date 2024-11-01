@@ -77,6 +77,41 @@ Hieman vielä hakusessa, mutta tästä se lähtee rullaamaan.
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
 
 ## c) Ratkaise dirfuzt-1
+Asentelin Githubista tuoreimman version 2.1.0 ffufista.
+
+      wget https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1.0_linux_amd64.tar.gz
+      tar -zf ffuf_2.1.0_linux_amd64.tar.gz
+      ./ffuf
+
+![K5](5.png)
+
+Lisäksi latasin Teron ohjeistukseta löytyvän suoran kirjaston, Seclists by Daniel Miessler
+
+      wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
+      head -3 common.txt 
+      wc -l common.txt 
+
+![K6](6.png)
+
+Testailin ensin löytää salatun sivun dirfutz-0 tiedostosta Tero sivuilta löytyvän ohjeistuksen mukaan, että tajuan miten homma toimii. Ffufilla kun ajetaan ladatut kirjastot läpi, saadaan hieman lisätietoa etsimästämme.
+
+      ./ffuf -w common.txt -u http://127.0.0.2:8000/.bash_history
+      ./ffuf -w common.txt -u http://127.0.0.2:8000/.bashrc
+
+![K7](7.png)
+
+Sieltähän me löydetään vastauksia, mutta vielä pitäisi filteröidä ne vastaukset mitä halutaan. Käytetään Teron ohjeistuksen mukaista -fs filteröintiä, millä voidaan filteöidä koon (bytes) mukaan.
+
+      ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132
+
+![K8](8.png)
+
+Bingo. Admin sivusto löydetty ja kun testataan se vielä selaimessa toimivaksi, saadaan homma maaliin.
+
+Seuraavaksi siirryin dirfuzt-1 tehtävän pariin. Käytin täysin samoja methodeja, mitä yläpuolella on kuvailtuna ja sieltä löytyi wp-admin & .git sivustot. 
+
+![K9](9.png)
+![K10](10.png)
 
 ## d) Murtaudu 020-your-eyes-only
 
@@ -99,6 +134,7 @@ Portswigger Access control vulnerabilities and privilege escalation. Luettavissa
 
 Karvinen T. Hack'n Fix. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/hack-n-fix/ Luettu 1.11.2024
 
+Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu 1.11.2024
 
 
 
