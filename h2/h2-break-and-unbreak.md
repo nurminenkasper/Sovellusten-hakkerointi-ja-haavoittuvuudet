@@ -66,9 +66,13 @@ Foo, mikä ihmeen foo? Pitkän tovin mietiskelin, mutta en keksinyt mitään jat
 
 ![K4](4.png)
 
-BINGO. Sieltähän se SUPERADMIN paljastui ruudulle toisella yrittämällä.
+BINGO. Sieltähän se SUPERADMIN paljastui ruudulle toisella yrittämällä. Jäin vielä miettimään itsekseni tuota LIMIT käyttöä, koska se oli itselle aivan uusi asia. Pohdintoja salasanan murtavasta lauseesta:
 
+      SELECT password FROM pins WHERE pin='0' OR '1=1' LIMIT 2,1 --'; 
 
+Alkuperäinen ehto etsii SQL taulusta salasanaa, jonka pin on 0. OR '1=1' lisää ehdon, joka palauttaa kaikki salasanat joiden PIN on 0 tai tosi. Minkä seurauksena saadaan myös foo, mikäli ymmärrän oikein. Tämän jälkeen, kun lisätään LIMIT 2,1, se palauttaa vain tietyn rivin tuloksia, mistä tällä kertaa löytyykin SUPERADMIN.
+
+Hieman vielä hakusessa, mutta tästä se lähtee rullaamaan.
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
 
