@@ -36,6 +36,15 @@
 - Windows 11 Home
 
 ## a) Murtaudu 010-staff-only
+Tehtävää suoritin Debian 12 virtuaalikoneen puolella. Tehtävää edeltävästi asensin tarvittavat python3-flask & python3-flask-sqlalchemy paketit.
+
+      sudo apt-get -y install python3-flask python3-flask-sqlalchemy
+
+Purettuani tehtäväpaketin kansioon, suoritin staff-only.py ohjelman ja avasin sen Firefox selaimessa localhost osoitteesta.
+
+Testailin alkuun eri numerosarjoja, mutta niillä ei kovin pitkälle päässyt. Yritin heti perään syöttää SQL tekstiä, mutta tekstikenttään pystyi syöttämään vain numeroita.
+
+
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
 
@@ -59,6 +68,8 @@ Nurminen Kasper GitHub. Linux Kurssin viikkotehtävä. Luettavissa: https://gith
 Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024
 
 Portswigger Access control vulnerabilities and privilege escalation. Luettavissa: https://portswigger.net/web-security/access-control Luettu: 31.10.2024
+
+Karvinen T. Hack'n Fix. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/hack-n-fix/ Luettu 1.11.2024
 
 
 
