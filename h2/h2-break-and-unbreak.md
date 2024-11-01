@@ -162,6 +162,13 @@ Tämän ratkaisinkin jo kurssin tunnin aikana ja tämän tehtävän oppeja lähd
 ![K17](17.png)
 
 ## h) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+Tämänkin kerkesin ratkaista jo kurssin tunnin aikana, mutta ratkoin uudestaan vielä. Yritinkin 020 - Your Eyes Only tehtävässä ratkoa kirjautumista admin-console sivustolle juuri tätä tehtävää vastaavalla suorituksella, missä admin käyttäjälle yritetään hakea kannasta sopivaa salasanaa.
+
+      Username: administrator'--
+      Passowrd: ' '
+
+![K18](18.png)
+![K19](19.png)
 
 ## Lähteet
 OWASP Top 10:2021. A01:2021 – Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ Luettu: 31.10.2024
@@ -179,6 +186,10 @@ Karvinen T. Hack'n Fix. Tero Karvisen verkkosivut. Luettavissa: https://terokarv
 Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu 1.11.2024
 
 Portswigger, Examples of SQL injection. Luettavissa: https://portswigger.net/web-security/sql-injection#sql-injection-examples Luettu 1.11.2024
+
+Portswigger, Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data Luettu 1.11.2024 
+
+Portswigger, Lab: SQL injection vulnerability allowing login bypass. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-login-bypass Luettu 1.11.2024 
 
 
 
