@@ -52,13 +52,19 @@ Yritin ensimmäisenä syöttää kenttään:
 
       0'+OR+1=1 --
 
+![K2](2.png)
+
 Mutta palautteena sain vain Internal Server Erroria, joten paluu mietintämyssyyn edessä. Muokkailin hieman syötteen rakennetta ja yllätyksekseni sain vastaukseksi foo.
 
       0' OR '1=1'--
 
+![K3](3.png)
+
 Foo, mikä ihmeen foo? Pitkän tovin mietiskelin, mutta en keksinyt mitään jatkoa lauseelle millä paljastaisin muita salasanoja. Teron vinkeistä löysin kuitenkin ratkaisun mietiskelyyn ja rupesin kokeilemaan lisäämällä LIMIT loppuun.
 
       0' OR '1=1' LIMIT 2,1 --
+
+![K4](4.png)
 
 BINGO. Sieltähän se SUPERADMIN paljastui ruudulle toisella yrittämällä.
 
