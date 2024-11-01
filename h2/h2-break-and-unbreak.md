@@ -136,7 +136,7 @@ Lähdin heti ratkomaan tehtävää etsimällä ffufilla piilotettuja sivuja. Tä
 
 Tästä saatiikin saaliiksi se, että sivustolta löytyy admin-console. Suunnistin sivulle http://127.0.0.1:8000/admin-console/ ja rupesin miettimään, miten kirjautuminen ratkaistaan. Lähestymistapaa yritin hakea pidemmän tovin SQL injektiona.
 
-      Usermane: admin '--
+      Username: admin '--
       Password: ' '
 
 ![K13](13.png)
@@ -155,6 +155,11 @@ Ja näin homma pakettiin. Ihan hölmistynyt olo, miten simppeli ratkaisu lopulta
 ## e) Korjaa 020-your-eyes-only haavoittuvuus
 
 ## g) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
+Tämän ratkaisinkin jo kurssin tunnin aikana ja tämän tehtävän oppeja lähdinkin soveltamaan Teron tuottamaan 010 - Staff Only tehtävään. Portswiggerin tehtävässä valittiin category Gifts ja URL perään syötettiin SQL koodia näyttämään myös piilotetut tuotteet.
+
+      '+OR+1=1--
+      
+![K17](17.png)
 
 ## h) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
 
