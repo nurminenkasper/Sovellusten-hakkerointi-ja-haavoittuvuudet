@@ -191,8 +191,3 @@ Portswigger, Examples of SQL injection. Luettavissa: https://portswigger.net/web
 Portswigger, Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data Luettu 1.11.2024 
 
 Portswigger, Lab: SQL injection vulnerability allowing login bypass. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-login-bypass Luettu 1.11.2024 
-
-
-
-
-
