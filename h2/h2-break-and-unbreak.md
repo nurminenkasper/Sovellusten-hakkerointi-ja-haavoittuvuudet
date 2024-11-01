@@ -44,6 +44,10 @@ Purettuani tehtäväpaketin kansioon, suoritin staff-only.py ohjelman ja avasin 
 
 Testailin alkuun eri numerosarjoja, mutta niillä ei kovin pitkälle päässyt. Yritin heti perään syöttää SQL tekstiä, mutta tekstikenttään pystyi syöttämään vain numeroita.
 
+Lähdin taklaamaan ongelmaa avaamalla F12 näppäimellä Inspector näkymän ja valitsin syötekentän. Muokkasin input type number -> text. Tällä tavalla pystyis syöttämään myös tekstiä kenttään. 
+
+![K1](1.png)
+
 
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
