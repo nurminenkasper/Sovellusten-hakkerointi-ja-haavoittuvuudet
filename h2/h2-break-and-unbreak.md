@@ -25,6 +25,7 @@
 - Raportin tulee olla helppolukuinen. Käytä väliotsikoita, kirjoita selkeää kieltä ja viittaa mahdollisiin lähteisiin.
 - Vältä sepittämistä, plagiointia ja kuvien luvatonta käyttöä.
 ### Vapaaehtoinen: PortSwigger 2020: What is SQL injection? - Web Security Academy
+-
 
 ## Rauta & HostOS
 
@@ -182,6 +183,8 @@ Nurminen Kasper GitHub. Linux Kurssin viikkotehtävä. Luettavissa: https://gith
 Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024
 
 Portswigger Access control vulnerabilities and privilege escalation. Luettavissa: https://portswigger.net/web-security/access-control Luettu: 31.10.2024
+
+PortSwigger Youtube, What is SQL injection? - Web Security Academy. Katsottavissa: https://www.youtube.com/watch?v=wX6tszfgYp4 Katsottu 1.11.2024
 
 Karvinen T. Hack'n Fix. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/hack-n-fix/ Luettu 1.11.2024
 
