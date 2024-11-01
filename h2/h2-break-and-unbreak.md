@@ -114,6 +114,43 @@ Seuraavaksi siirryin dirfuzt-1 tehtävän pariin. Käytin täysin samoja methode
 ![K10](10.png)
 
 ## d) Murtaudu 020-your-eyes-only
+Tehtävä käyntiin Debianilla asentamalla paketit ja riippuvuudet, kuten Virtualenv, että saadaan Djangolla testi serveri käyntiin, missä tehtävä suoritetaan.
+
+      cd challenges/020-your-eyes-only/
+      sudo apt-get -y install virtualenv
+      virtualenv virtualenv/ -p python3 --system-site-packages
+      source virtualenv/bin/activate
+      cat requirements.txt
+      pip install -r requirements.txt
+      cd logtin/
+      ./manage.py makemigrations; ./manage.py migrate
+      ./manage.py runserver
+
+![K11](11.png)
+
+Lähdin heti ratkomaan tehtävää etsimällä ffufilla piilotettuja sivuja. Tämän tarpeesta olikin jo alustava tieto tunnilla opitusta ja käytin samaa metodia suorittamiseen, mitä tehtävässä C.
+
+      ./ffuf -w common.txt -u http://127.0.0.1:8000/FUZZ
+
+![K12](12.png)
+
+Tästä saatiikin saaliiksi se, että sivustolta löytyy admin-console. Suunnistin sivulle http://127.0.0.1:8000/admin-console/ ja rupesin miettimään, miten kirjautuminen ratkaistaan. Lähestymistapaa yritin hakea pidemmän tovin SQL injektiona.
+
+      Usermane: admin '--
+      Password: ' '
+
+![K13](13.png)
+
+Tämä ei kuitenkaan tuottanut mitään tulosta, joten oli pakko turvautua Teron sivustolta löytyviin tehtävävinkkeihin. Heti kun näin vinkin "Did you try as logged-in user, too?" rupesin soimaan hälytyskellot, tuli jopa ehkä vähän tyhmä olo, miksen tajunnut asiaa. Suuntasin tekemään tunnukset etusivun kautta löytyvästä register napista. 
+
+![K14](14.png)
+![K15](15.png)
+
+Hackerman tunnukset tulille ja kirjautuminen sisään onnistuneesti. Tämän jälkeen uudestaan ffufilla etsitylle admin-console sivustolle http://127.0.0.1:8000/admin-console/
+
+![K16](16.png)
+
+Ja näin homma pakettiin. Ihan hölmistynyt olo, miten simppeli ratkaisu lopulta oli. 
 
 ## e) Korjaa 020-your-eyes-only haavoittuvuus
 
@@ -135,6 +172,10 @@ Portswigger Access control vulnerabilities and privilege escalation. Luettavissa
 Karvinen T. Hack'n Fix. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/hack-n-fix/ Luettu 1.11.2024
 
 Karvinen T. Find Hidden Web Directories - Fuzz URLs with ffuf. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu 1.11.2024
+
+Portswigger, Examples of SQL injection. Luettavissa: https://portswigger.net/web-security/sql-injection#sql-injection-examples Luettu 1.11.2024
+
+
 
 
 
