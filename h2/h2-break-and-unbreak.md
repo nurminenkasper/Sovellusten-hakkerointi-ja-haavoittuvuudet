@@ -48,6 +48,20 @@ Lähdin taklaamaan ongelmaa avaamalla F12 näppäimellä Inspector näkymän ja 
 
 ![K1](1.png)
 
+Yritin ensimmäisenä syöttää kenttään:
+
+      0'+OR+1=1 --
+
+Mutta palautteena sain vain Internal Server Erroria, joten paluu mietintämyssyyn edessä. Muokkailin hieman syötteen rakennetta ja yllätyksekseni sain vastaukseksi foo.
+
+      0' OR '1=1'--
+
+Foo, mikä ihmeen foo? Pitkän tovin mietiskelin, mutta en keksinyt mitään jatkoa lauseelle millä paljastaisin muita salasanoja. Teron vinkeistä löysin kuitenkin ratkaisun mietiskelyyn ja rupesin kokeilemaan lisäämällä LIMIT loppuun.
+
+      0' OR '1=1' LIMIT 2,1 --
+
+BINGO. Sieltähän se SUPERADMIN paljastui ruudulle toisella yrittämällä.
+
 
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
