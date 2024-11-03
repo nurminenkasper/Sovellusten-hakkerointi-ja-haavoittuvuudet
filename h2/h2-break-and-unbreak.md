@@ -74,7 +74,19 @@ Alkuperäinen ehto etsii SQL taulusta salasanaa, jonka pin on 0. OR '1=1' lisä�
 Hieman vielä hakusessa, mutta tästä se lähtee rullaamaan.
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
---Pyörittelin tehtävän lähdekoodia pidemmän tovin microlla auki. Mahdollisesti löysin oikean rivin mitä muokata, mutta edes Hack-n-Fix sivuston vinkeillä en osaa lähteä parantamaan koodia niin, että siitä saisi toimivan.--
+~~Pyörittelin tehtävän lähdekoodia pidemmän tovin microlla auki. Mahdollisesti löysin oikean rivin mitä muokata, mutta edes Hack-n-Fix sivuston vinkeillä en osaa lähteä parantamaan koodia niin, että siitä saisi toimivan.~~
+
+Palasin vielä tehtävän pariin, kun Tero oli lisäillyt hieman lisää apuja tekemiseen jakamalla Robinin ratkaisun tehtävään. Kiitos Robin, tehtävää oli huomattavasti helpompi ymmärtää! Käytin kuitenkin vielä tekoälyä (ChatGPT) lisäksi ymmärtämiseen, miten koodia lähdetään tarkastelemaan ja ratkaisemaan, sekä korjaamaan ongelmaa.
+
+![K20](20.png)
+
+      sql = "SELECT password FROM pins WHERE pin='"+pin+"';"
+
+Tästä meiltä löytyy ongelma, mihin pitäisi keksiä ratkaisu. Robinin & ChatGPT avulla ymmärsin lopulta, että ongelma tulee siitä miten SELECT lauseessa käyttäjältä tullut syöte liitetään suoraan SQL-lauseeseen ilman käsittelyä avaa se mahdollisuuden esimerkiksi omalle SQL-injektio käyttämiselle.
+
+Ratkaisuksi muutetaan koodi käyttämään parametrisoitua kyselyä, joka estää tässä tapauksessa SQL-injektio sillä käyttäjän syöte erotetaan SQL-komennosta niin ollen se ei koskaan sekoitu sen rakenteeseen. Itse käytin ratkaisussa hieman Robinin raportoinnista poikkeavaa lähestymistapaa testiksi, tämä oli kylläkin täysin ChatGPT avusteisesti. Tarkoituksena olikin itselle lähinnä ymmärtää, miten korjaus tapahtuu.
+
+![K21](21.png)
 
 ## c) Ratkaise dirfuzt-1
 Asentelin Githubista tuoreimman version 2.1.0 ffufista.
