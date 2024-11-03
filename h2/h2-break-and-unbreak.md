@@ -165,7 +165,9 @@ Hackerman tunnukset tulille ja kirjautuminen sisään onnistuneesti. Tämän jä
 Ja näin homma pakettiin. Ihan hölmistynyt olo, miten simppeli ratkaisu lopulta oli. 
 
 ## e) Korjaa 020-your-eyes-only haavoittuvuus
-Löysin kyllä Teron vinkkien kautta views.py tiedoston ja avasin sen microlla, mutta hetken aikaan pähkäiltyä ei ollut mitään hajua mistä edes aloittaa korjaamista.
+~~Löysin kyllä Teron vinkkien kautta views.py tiedoston ja avasin sen microlla, mutta hetken aikaan pähkäiltyä ei ollut mitään hajua mistä edes aloittaa korjaamista.~~
+
+
 
 ## g) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 Tämän ratkaisinkin jo kurssin tunnin aikana ja tämän tehtävän oppeja lähdinkin soveltamaan Teron tuottamaan 010 - Staff Only tehtävään. Portswiggerin tehtävässä valittiin category Gifts ja URL perään syötettiin SQL koodia näyttämään myös piilotetut tuotteet.
