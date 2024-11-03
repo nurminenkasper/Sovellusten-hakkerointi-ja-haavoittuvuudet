@@ -208,4 +208,4 @@ Portswigger, Lab: SQL injection vulnerability allowing login bypass. Luettavissa
 
 Robin Niinemets, GitHub H2 - BREAK & UNBREAK, Luettavissa: https://askdatdude.github.io/school/answers/002-1.html Luettu 3.11.2024
 
-Tehtävä b & e sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
+Tehtävä b) sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
