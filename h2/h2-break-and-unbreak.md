@@ -74,7 +74,7 @@ Alkuperäinen ehto etsii SQL taulusta salasanaa, jonka pin on 0. OR '1=1' lisä�
 Hieman vielä hakusessa, mutta tästä se lähtee rullaamaan.
 
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
-Pyörittelin tehtävän lähdekoodia pidemmän tovin microlla auki. Mahdollisesti löysin oikean rivin mitä muokata, mutta edes Hack-n-Fix sivuston vinkeillä en osaa lähteä parantamaan koodia niin, että siitä saisi toimivan.
+--Pyörittelin tehtävän lähdekoodia pidemmän tovin microlla auki. Mahdollisesti löysin oikean rivin mitä muokata, mutta edes Hack-n-Fix sivuston vinkeillä en osaa lähteä parantamaan koodia niin, että siitä saisi toimivan.--
 
 ## c) Ratkaise dirfuzt-1
 Asentelin Githubista tuoreimman version 2.1.0 ffufista.
