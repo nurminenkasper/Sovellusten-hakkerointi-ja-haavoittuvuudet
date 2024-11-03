@@ -76,7 +76,7 @@ Hieman vielä hakusessa, mutta tästä se lähtee rullaamaan.
 ## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista
 ~~Pyörittelin tehtävän lähdekoodia pidemmän tovin microlla auki. Mahdollisesti löysin oikean rivin mitä muokata, mutta edes Hack-n-Fix sivuston vinkeillä en osaa lähteä parantamaan koodia niin, että siitä saisi toimivan.~~
 
-Palasin vielä tehtävän pariin, kun Tero oli lisäillyt hieman lisää apuja tekemiseen jakamalla Robinin ratkaisun tehtävään. Kiitos Robin, tehtävää oli huomattavasti helpompi ymmärtää! Käytin kuitenkin vielä tekoälyä (ChatGPT) lisäksi ymmärtämiseen, miten koodia lähdetään tarkastelemaan ja ratkaisemaan, sekä korjaamaan ongelmaa.
+Palasin vielä tehtävän pariin, kun Tero oli lisäillyt hieman lisää apuja tekemiseen jakamalla Robinin ratkaisun tehtävään. Kiitos Robin Niinemets, tehtävää oli huomattavasti helpompi ymmärtää! Käytin kuitenkin vielä tekoälyä (ChatGPT) lisäksi ymmärtämiseen, miten koodia lähdetään tarkastelemaan ja ratkaisemaan, sekä korjaamaan ongelmaa.
 
 ![K20](20.png)
 
@@ -203,3 +203,7 @@ Portswigger, Examples of SQL injection. Luettavissa: https://portswigger.net/web
 Portswigger, Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data Luettu 1.11.2024 
 
 Portswigger, Lab: SQL injection vulnerability allowing login bypass. Luettavissa: https://portswigger.net/web-security/sql-injection/lab-login-bypass Luettu 1.11.2024 
+
+Robin Niinemets, GitHub H2 - BREAK & UNBREAK, Luettavissa: https://askdatdude.github.io/school/answers/002-1.html Luettu 3.11.2024
+
+Tehtävä b & e sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
