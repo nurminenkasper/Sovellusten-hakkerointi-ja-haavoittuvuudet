@@ -167,7 +167,18 @@ Ja näin homma pakettiin. Ihan hölmistynyt olo, miten simppeli ratkaisu lopulta
 ## e) Korjaa 020-your-eyes-only haavoittuvuus
 ~~Löysin kyllä Teron vinkkien kautta views.py tiedoston ja avasin sen microlla, mutta hetken aikaan pähkäiltyä ei ollut mitään hajua mistä edes aloittaa korjaamista.~~
 
+Palasin vielä tehtävän pariin ratkaisemaan ja ymmärtäämään sitä Robinin kotitehtäväraportoinnin pohjalta. Aikaisemmin olin jo selvästi löytänyt tieni oikeaan paikkaan, joten availin uudestaan /hats/views.py.
 
+Robinin kuvailemana haavoittuvuus löytyy koodin test_func kohdasta, mihin pitää lisätä tarkistus sille, kuka pääsee käsiksi admin-console sivustolle. Lisäämälle riville test_func riville kyseinen testaus, saadaan koodi toimimaan niin, ettei sinne pääse kuin staff oikeuksin.
+
+      def test_func(self):
+		return self.request.user.is_authenticated and self.request.user.is_staff
+
+![K22](22.png)
+
+Testaamalla vielä nähdään, että nyt yrittäessä mennä sivustolle admin-console tulee 403 Forbidden virhe.
+
+![K23](23.png)
 
 ## g) Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 Tämän ratkaisinkin jo kurssin tunnin aikana ja tämän tehtävän oppeja lähdinkin soveltamaan Teron tuottamaan 010 - Staff Only tehtävään. Portswiggerin tehtävässä valittiin category Gifts ja URL perään syötettiin SQL koodia näyttämään myös piilotetut tuotteet.
