@@ -41,3 +41,18 @@ Lippu: FLAG{Tero-d75ee66af0a68663f15539ec0f46e3b1}
 
 ## b) passtr.c -ohjelmasta uusi versio
 
+DISCLAIMER! Tehtävän ratkaisussa on hyödynnetty lyödettyjen lähteiden lisäksi ChatGPT-4 tekoäly kielimallia.
+
+
+
+## Lähteet
+
+Karvinen T. Application Hacking. h3 No strings attached. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/ Luettu 8.11.2024
+
+How To Geek. How to Use the strings Command. Luettavissa: https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/ Luettu: 8.11.2024
+
+Reddit. How to hide characters when doing strings on my compiled C program?. Luettavissa: https://www.reddit.com/r/C_Programming/comments/gri58y/how_to_hide_characters_when_doing_strings_on_my/ Luettu 8.11.2024
+
+Yurisk.info. Binary obfuscation - String obfuscating in C. Luettavissa: https://yurisk.info/2017/06/25/binary-obfuscation-string-obfuscating-in-C/ Luettu 8.11.2024
+
+Tehtävä b) sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
