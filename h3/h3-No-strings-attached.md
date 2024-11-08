@@ -45,11 +45,11 @@ DISCLAIMER! Tehtävän ratkaisussa on hyödynnetty lyödettyjen lähteiden lisä
 
 Lähdin ratkomaan tehtävää avaamalla Micro:ssa itse passtr.c lähdekoodin ja tutkailemalla hieman sitä. C-kieli on jonkin verran tuttua, mutta nopeasti lähdekoodia tutkaillessa selvisi ettei ainakaan ilman apuja tähän ratkaisua omasta takataskusta löydy. 
 
-[K5](5.png)
+![K5](5.png)
 
 Tutkailin hieman ensin Googlella, miten binääristä voisi salasanan saada piiloon ja törmäsinkin yhden [reddit postauksen](https://www.reddit.com/r/C_Programming/comments/gri58y/how_to_hide_characters_when_doing_strings_on_my/) kautta artikkeliin [Yurisk.info](https://yurisk.info/2017/06/25/binary-obfuscation-string-obfuscating-in-C/) missä sovellettiin tapaa, millä salasana piilotetaan HIDDEN_LETTER avulla. Lähdin tätä ajatusta hyödyntäen soveltamaan sitä alkuperäiseen lähdekoodiin ja tässä vielä tekoälyä hyödyntäen saatiin uusi versio ohjelmasta aikaan.
 
-[K6](6.png)
+![K6](6.png)
 
 Tässä ratkaisussa on käytetty makroja, millä piilotetaan salasana "sala-hakkeri-321" muutttamalla jokainen merkki ASCII-arvoon ja sen jälkeen purkamalla se luettavissa alkuperäiseen muotoon. Puran vielä uuden ohjelman toimintaa hieman alle.
 
@@ -89,11 +89,11 @@ No, toimiiko uusi ohjelma? Pitää ensin GNU Compiler Collection hyödyntäen ta
 
         gcc passtr.c -o passtr
 
-[K7](7.png)
+![K7](7.png)
 
 Testataan vielä, että strings komennolla ei saada salasanaa näkyviin.
 
-[K8](8.png)
+![K8](8.png)
 
 Tadaa, ohjelman binääristä ei löydy enää näkyvää salasanaa.
         
