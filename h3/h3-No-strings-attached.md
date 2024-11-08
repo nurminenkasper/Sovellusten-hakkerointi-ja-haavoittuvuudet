@@ -56,3 +56,7 @@ Reddit. How to hide characters when doing strings on my compiled C program?. Lue
 Yurisk.info. Binary obfuscation - String obfuscating in C. Luettavissa: https://yurisk.info/2017/06/25/binary-obfuscation-string-obfuscating-in-C/ Luettu 8.11.2024
 
 Tehtävä b) sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
+
+Linux.fi. GCC. Luettavissa: https://www.linux.fi/wiki/GCC Luettu: 8.11.2024
+
+
