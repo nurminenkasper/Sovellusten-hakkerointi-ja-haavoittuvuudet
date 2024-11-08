@@ -15,25 +15,25 @@ Lähdin tarkastelemaan tehtävää ihan puhtaasti kansiosta löytyvästä README
 
         cat README.md
 
-[1](1.png)
+![K1](1.png)
 
 Testailin tietenkin alkuun mitä kyseinen passtr tekee.
 
         ./passtr
 
-[2](2.png)
+![K2](2.png)
 
 Okei, mikä salasana on? Tiedossa oli, että salasanaa piti ruveta selvittämään Strings avulla, oli itselle ensin selvennettävä miten ja miksi sitä tarkalleen käytetään. Käytännössä Strings komennolla haetaan binääristä luettavissa olevat tekstit. Lähdin siis suorittamaan strings komentoa seuraavaksi kansiosta löytyvään passtr.
 
         strings passtr
 
-[3](3.png)
+![K3](3.png)
 
 Sieltähän löytyi vaikka mitä tietoa, mutta selvästi myös salasana sala-hakkeri-321. Testataan vielä, että se toimii suorittaessa.
 
         ./passtr
 
-[4](4.png)
+![K4](4.png)
 
 Yes, That's the password. Toimiihan se tosissaan.
 
