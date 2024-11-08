@@ -96,6 +96,8 @@ Testataan vielä, että strings komennolla ei saada salasanaa näkyviin.
 ![K8](8.png)
 
 Tadaa, ohjelman binääristä ei löydy enää näkyvää salasanaa.
+
+## c)
         
 ## Lähteet
 
