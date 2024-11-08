@@ -37,7 +37,7 @@ Sieltähän löytyi vaikka mitä tietoa, mutta selvästi myös salasana sala-hak
 
 Yes, That's the password. Toimiihan se tosissaan.
 
-Lippu: FLAG{Tero-d75ee66af0a68663f15539ec0f46e3b1}
+**Lippu: FLAG{Tero-d75ee66af0a68663f15539ec0f46e3b1}**
 
 ## b) passtr.c -ohjelmasta uusi versio
 
@@ -97,7 +97,54 @@ Testataan vielä, että strings komennolla ei saada salasanaa näkyviin.
 
 Tadaa, ohjelman binääristä ei löydy enää näkyvää salasanaa.
 
-## c)
+## c) Packd
+
+Lähdin liikkeelle ratkaisemaan tehtävää tietenkin edeltäviä oppeja hyödyntäen käyttämällä packd ohjelmaan strings komentoa. 
+
+        strings packd
+
+![K9](9.png)
+
+Erikoista, tekstiä löytyy, mutta lauseet näyttää hyvin katkonaisilta. Itselle pisti heti silmään "This file is packed with the UPX executable packer". Tarkastelin vielä cat komennolla, antaisiko se mitään lisätietoa.
+
+        cat packd
+
+![K10](10.png)
+
+Okei, sama "This file is packed with the UPX executable packer" löytyy tästäkin. Google auki ja selvittelemään, mikä ihme UPX. Nopeastikko tuo selvisikin, että kyseessä on [UPX "The Ultimate Packer for eXecutables"](https://upx.github.io/). Asennellaan ja selvitellään lisää, miten se tarkalleen toimii.
+
+        sudo apt install upx
+        upx
+
+![K11](11.png)
+
+Okei, meiltä löytyy selvästi packd executable mikä on pakattu UPX käyttäen. Ensimmäisenä itselle tulee UPX komennoista mieleen -d, millä puretaan packd. 
+
+        upx -d packd
+
+![K12](12.png)
+
+Hienoa, homma etenee ja ainakin ohjelama suoritettu onnistuneesti maaliin. Mitä cat komennolla nähdään nyt?
+
+        cat packd
+
+![K13](13.png)
+
+Parannusta luettavuudessa havaittavissa, testataan seuraavaksi strings suorittaminen.
+
+        strings packd
+
+![K14](14.png)
+
+Hei, hetkinen! Salasana piilos-AnAnAs. Voisiko se todella toimia näinkin simppelisti?
+
+        ./packd
+
+![K15](15.png)
+
+Toimiihan se! Taikuri yllättänyt itsensäkkin tämän tehtävän ratkaisussa.
+
+**Lippu: FLAG{Tero-0e3bed0a89d8851da933c64fefad4ff2}**
         
 ## Lähteet
 
@@ -112,3 +159,7 @@ Yurisk.info. Binary obfuscation - String obfuscating in C. Luettavissa: https://
 Tehtävä b) sisällössä ja ratkaisuissa hyödynnetty ChatGPT-4 -kielimallia.
 
 Linux.fi. GCC. Luettavissa: https://www.linux.fi/wiki/GCC Luettu: 8.11.2024
+
+UPX - the Ultimate Packer for eXecutables. Luettavissa: https://upx.github.io/ Luettu: 8.11.2024
+
+
