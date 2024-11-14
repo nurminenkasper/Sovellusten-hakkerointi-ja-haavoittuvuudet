@@ -29,7 +29,39 @@ Suoritetaan Ghidra puretusta kansiosta ja varmistetaan, että se aukeaa oletetul
 Toimiihan se!
 
 ## b) rever-C
+Packd tehtävää varten Ghidra käyntiin ja luodaan sille uusi projekti.
 
+![K5](5.png)
+
+Syötetään packd ohjelma projektiin.
+
+![K6](6.png)
+
+Analysoidaanko? No tietekin. Täysin default valinnoilla mennään.
+
+![K7](7.png)
+
+Itse lähdin etsimään main ohjelmaa aluksi suoraan Listing kohdasta, mutta nopeasti tajusin sen olevan turhan loputon heinäsuo. Selailin hieman Program Trees kohtaa, sieltäkin oli hieman hankala löytää mitään järkevää. Alempaa Symbol Tree kohdasta kuitenkin löytyi suoraan main kohta, mikä oli ilmeisestikkin tarkoitus löytää.
+
+![K8](8.png)
+
+Lähdin Decompile ikkunasta miettimään ratkaisuja vajanainseen C-koodin tynkään.
+
+Ylimmän main(void) kohdan jätin samaksi, en tiedä mitä muutakaan siihen olisi pitänyt syöttää?
+
+**int iVar1; -> int Password**
+
+int, eli integer on ohjelman muuttuja. Ohjemassa viitataan siihen useampaan kertaan.
+
+**char local_28 -> char inputPassword**
+
+char, eli käyttäjän syöte. Siihen viitataan muutamssa eri kohdassa missä sitä verrataan esimerkiksi onko salasana == 0 ja sen perusteella annetaan oikea syöte.
+
+Ohjelmasta löytyy lisäksi tietenkin
+
+**puts**, joka ohjeistaa käyttäjää syöttämään salasanan ja myöhemmin tulostaa oikean tuloksen.
+
+**scanf**, mikä lukee käyttäjän syötteen ja aloittaa vertausprosessin.
 
 ## c) Jos väärinpäin
 
