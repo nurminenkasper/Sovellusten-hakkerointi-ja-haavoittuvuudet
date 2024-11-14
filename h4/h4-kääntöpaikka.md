@@ -65,6 +65,8 @@ Ohjelmasta löytyy lisäksi tietenkin
 
 **scanf**, mikä lukee käyttäjän syötteen ja aloittaa vertausprosessin.
 
+![K9](9.png)
+
 ## c) Jos väärinpäin
 
 
