@@ -68,7 +68,38 @@ Ohjelmasta löytyy lisäksi tietenkin
 ![K9](9.png)
 
 ## c) Jos väärinpäin
+Tehdään tehtävää varten uusi projekti ja syötetään sille passtr ohjelma.
 
+![K10](10.png)
+![K11](11.png)
+
+Tuli ohjelman Ghidraan syöttämisen jälkeen, että koneelta löytynyt versio olikin jo h3 tehtävissä muokattu versio. Testataan nyt vielä sen toiminta, ennen jatkamista.
+
+![K12](12.png)
+
+Toimiihan se, salasanalla sala-hakkeri-321 saadaan siis lippu näkyviin. Mennään sillä mielenkiinnon vuoksi toimiiko kääntäminen koodiin syöttämästäni makroista huolimatta.
+
+Etsin jälleen Symbol Tree kohdasta main koodin ja klikkailin Decompile kohdasta if, saaden näkyviin Binääristä **JNZ** (Jump if not equal/nonzero) kohdan. Tunnilta olikin esimerkistä muistissa jo, että se vaihdetaan **JZ** (Jump if equal/zero) millä ohjelma saadaan käännettyä toimimaan toisinpäin.
+
+![K13](13.png)
+
+Tallennetaan ja avataan File menusta Export Program. 
+
+![K14](14.png)
+
+Tuore versio ohjelmasta tallennettuna nyt alkuperäiseen kansioon, mutta ei ollutkaan suoraan oikeuksia suorittaa sitä joten annetaan sille samat oikeudet kuin alkuperäisellä ohjelmalla.
+
+![K15](15.png)
+
+Testataan, saadaanko lippu näkyviin sala-hakkeri-321 salasanalla.
+
+![K16](16.png)
+
+Eipä näy. Testataan sitten muutamaa eri salasanaa, saadaanko niillä näkyviin.
+
+![K17](17.png)
+
+Bingo. Lippu näkyviin kahdella eri tavalla joten käänteinen syöte toimii.
 
 ## d) Nora CrackMe
 
