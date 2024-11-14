@@ -87,3 +87,19 @@ Ohjelmasta löytyy lisäksi tietenkin
 
 
 ## i)
+
+
+## Lähteet
+
+Karvinen T. h4 Kääntöpaikka. Tero Karvisen verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024
+
+John Hammond Youtube. GHIDRA for Reverse Engineering. Katsottavissa: https://www.youtube.com/watch?v=oTD_ki86c9I Katsottu: 14.11.2024
+
+Cplusplus.com. Variables and types. Luettavissa: https://cplusplus.com/doc/tutorial/variables/ Luettu 14.11.2024
+
+Cplusplus.com. puts. Luettavissa: https://cplusplus.com/reference/cstdio/puts/ Luettu: 14.11.2024
+
+Cplusplus.com. scanf. Luettavissa: https://cplusplus.com/reference/cstdio/scanf/ Luettu: 14.11.2024
+
+Cplusplus.com. strcmp. Luettavissa: https://cplusplus.com/reference/cstring/strcmp/ Luettu: 14.11.2024
+
