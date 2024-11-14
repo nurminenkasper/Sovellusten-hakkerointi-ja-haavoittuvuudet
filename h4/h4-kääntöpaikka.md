@@ -47,17 +47,19 @@ Itse lähdin etsimään main ohjelmaa aluksi suoraan Listing kohdasta, mutta nop
 
 Lähdin Decompile ikkunasta miettimään ratkaisuja vajanainseen C-koodin tynkään.
 
-Ylimmän main(void) kohdan jätin samaksi, en tiedä mitä muutakaan siihen olisi pitänyt syöttää?
+Ylimmän main(void) kohdan jätin samaksi, kyseessä on pääfunktio.
 
 **int iVar1; -> int Password**
 
-int, eli integer on ohjelman muuttuja. Ohjemassa viitataan siihen useampaan kertaan.
+int, eli ohjelman muuttuja. Ohjemassa viitataan siihen useampaan kertaan. Tallentaa strcmp-funktion tulosten ja varmistaa onko se käyttäjän syöte oikea salasana.
 
 **char local_28 -> char inputPassword**
 
 char, eli käyttäjän syöte. Siihen viitataan muutamssa eri kohdassa missä sitä verrataan esimerkiksi onko salasana == 0 ja sen perusteella annetaan oikea syöte.
 
 Ohjelmasta löytyy lisäksi tietenkin
+
+**strcmp**, vertailee käyttäjän syötettä oikeaan salasanaan ohjelmasta.
 
 **puts**, joka ohjeistaa käyttäjää syöttämään salasanan ja myöhemmin tulostaa oikean tuloksen.
 
