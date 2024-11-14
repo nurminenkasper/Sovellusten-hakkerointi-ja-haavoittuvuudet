@@ -136,3 +136,5 @@ Cplusplus.com. scanf. Luettavissa: https://cplusplus.com/reference/cstdio/scanf/
 
 Cplusplus.com. strcmp. Luettavissa: https://cplusplus.com/reference/cstring/strcmp/ Luettu: 14.11.2024
 
+Rangeforce. Patching Binaries With Ghidra. Luettavissa: https://materials.rangeforce.com/tutorial/2020/04/12/Patching-Binaries/ Luettu: 14.11.2024
+
