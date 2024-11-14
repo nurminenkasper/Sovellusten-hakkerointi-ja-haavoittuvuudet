@@ -115,7 +115,27 @@ Tarkastellaan vielä, että tiedostot on käytettävissä ja README.md ohjeistus
 ![K20](20.png)
 
 ## e) Nora crackme01
+Tehdään make komennolla tehtävää varten koodista ajettava ohjelma crackme01.
 
+![K21](21.png)
+
+SUoritettava sovellus tehty, joten luonnollisesti ajetaan se alkuun ja katsotaan mitä tapahtuu.
+
+![K22](22.png)
+
+Okei. Tarvitsee jonkun lauseen ohjelman suoritteeseen. Ehkä tässä haetaan jotai salasanan tapaista?
+
+![K23](23.png)
+
+Selvästikkin. Lähdin edellisten tuntien ja tehtävien opeilla tarkastelemaan ohjelmaa Strings komennolla.
+
+![K24](24.png)
+
+password1 pistää heti silmään tulosteesta. Testataanpa sitä käytäntöön.
+
+![K25](25.png)
+
+Bingo. Tehtävän "lippu" löydetty.
 
 ## e) Nora crackme01e
 
