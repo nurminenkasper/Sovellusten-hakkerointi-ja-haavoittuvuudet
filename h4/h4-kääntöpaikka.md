@@ -138,7 +138,33 @@ password1 pistää heti silmään tulosteesta. Testataanpa sitä käytäntöön.
 Bingo. Tehtävän "lippu" löydetty.
 
 ## e) Nora crackme01e
+Tehdään jälleen make komennola tehtävää varten koodista ajettava ohjelma crackme01e.
 
+![K26](26.png)
+
+Testataan toimivuus.
+
+![K27](27.png)
+
+Okei. Sama kuvio kun edellisessä, salasanaa haetaan. Suoritellaan jälleen Strings komento ohjelmalle.
+
+![K28](28.png)
+
+slm!paas.k, siinähän se salasana olisi jälleen tarjolla. Mitään sen kummempaa salausta tiedostolla ei näytä olevan, koska kaikki tiedot on selkeästi lauseissa luettavissa. Testataan.
+
+![K29](29.png)
+
+Mitä ihmettä, ei toimikkaan. Erityinen virhe muutenkin, mutta alkuun ehkä vähän sivutin vielä itse bash virhettä. Tutkaillaanpa vielä eri tavalla ohjelmaa.
+
+![K30](30.png)
+
+Cat komentokaan ei oikeastaan kerro mitään uutta. Ihan ei aukea, miksi salasana ei toimi. Tuumailin tätä pidemmän tovin, mutta en keksinyt ja pidinkin hieman taukoa välissä. 
+
+Rupesin tauon jälkeen hieman pähkäilemään tuota virhettä, kun salasanan syöttää ja googlailin asiaa. Tuli vastaan satunnainen Serverfaultin [keskusteluun](https://serverfault.com/questions/413582/how-to-escape-in-password), missä ! salasanassa aiheuttaa kyseisen virheen käyttäjälle. Mikä ratkaisuksi? Kommenteista löytyy vihje miten syöttämällä salasana '' sisään voidaan ohittaa kyseinen bash virhe. Testiin.
+
+![K31](31.png)
+
+Bingo. Tämähän se ratkaisu ongelmaan oli ja nyt lippu löydettynä.
 
 ## f) Nora crackme02
 
@@ -167,4 +193,8 @@ Cplusplus.com. scanf. Luettavissa: https://cplusplus.com/reference/cstdio/scanf/
 Cplusplus.com. strcmp. Luettavissa: https://cplusplus.com/reference/cstring/strcmp/ Luettu: 14.11.2024
 
 Rangeforce. Patching Binaries With Ghidra. Luettavissa: https://materials.rangeforce.com/tutorial/2020/04/12/Patching-Binaries/ Luettu: 14.11.2024
+
+NoraCodes GitHub. Some Crackmes. Luettavissa: https://github.com/NoraCodes/crackmes Luettu 14.11.2024
+
+Serverfault. How to escape ! in password?. Luettavissa: https://serverfault.com/questions/413582/how-to-escape-in-password Luettu: 14.11.2024
 
