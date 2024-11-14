@@ -102,7 +102,17 @@ Eipä näy. Testataan sitten muutamaa eri salasanaa, saadaanko niillä näkyviin
 Bingo. Lippu näkyviin kahdella eri tavalla joten käänteinen syöte toimii.
 
 ## d) Nora CrackMe
+Asennellaan Nora CrackMe tehtäviä varten Git, jotta saadaan helposti kloonattua koko GitHub Repositoryn sisältö suoraan koneelle.
 
+![K18](18.png)
+
+Luonnollisetsi kloonataan git käyttäen perään tarpeelliset tiedostot virtuaalikoneelle.
+
+![K19](19.png)
+
+Tarkastellaan vielä, että tiedostot on käytettävissä ja README.md ohjeistusta käyttöön.
+
+![K20](20.png)
 
 ## e) Nora crackme01
 
