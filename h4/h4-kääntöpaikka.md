@@ -167,16 +167,66 @@ Rupesin tauon jälkeen hieman pähkäilemään tuota virhettä, kun salasanan sy
 Bingo. Tämähän se ratkaisu ongelmaan oli ja nyt lippu löydettynä.
 
 ## f) Nora crackme02
+Tehdään tehtävää varten jälleen itse ohjelma koodista.
 
+![K32](32.png)
 
-## g)
+Testataan, miten ohjelma toimii ennen sen tarkempaa tutkimista.
 
+![K33](33.png)
 
-## h)
+Vastaa selvästi aikasempia tehtävien ohjelmia. Tutkitaan alkuun Strings komennolla.
 
+![K34](34.png)
 
-## i)
+Salasanoja näkyvissä. Testataan kaksi näkyvillä olevaa.
 
+![K35](35.png)
+
+Mielenkiintoista, eihän ne toimi. Tiedossa tietenkin olikin tehtävänannosta, että ohjelmaan on tarkoitus soveltaa käänteismallinnusta. Luodaanpa siis Ghidraan oma projekti ja syötetään ohjelma sinne tarkempaa tarkastelua varten.
+
+![K36](36.png)
+![K37](37.png)
+
+Ohjelma auki Ghidrassa ja main pääfunktio löydetty koodin tarkempaa tarkastelua varten.
+
+![K38](38.png)
+
+Lähdin tarkastelemaan ja muokkaamaan koodia omien taitojen pohjalta. 
+
+Alusta meiltä löytyy tietenkin **main**, eli ohjelman pääfunktio ja sille on asetettu kaksi muuttujaa **int** & **long**.
+
+Ohjelmasta löytyy useampi **char**, eli käyttäjän syöte. Mietin, että toinen niistä on ainakin käyttäjän syöttämän salasana eli password.
+
+Koodissa selvästi verrataan ja lasketaan käyttäjän syötettä laskutoimituksella, sen verran saan irti. En kuitenkaan keksi, mitä param_1 ja param_2 esimerkiksi olisi.
+
+Jäin miettimään koodin loppua ja etenkin **uvar3 = 0xffffffff**. Koodissa viitataan useaan kertaan käytännössä loppukohdassa uvar3 syötteeseen, joten voisiko se olla joku tuloste? Googlettelin ja löysin, että **0xffffffff** on käännettynä -1. Nimesin siispä uvar3 **Return**.
+
+Tähän loppuikin oikeastaan oma mietintä ja jätin asiaa hieman hautumaan, jatkaen tehtävää seuraavana päivänä.
+
+![K39](39.png)
+
+Seuraavan päivän tullessa ja tehtävää jatkaessa, ei koodille sen enempää tuntunut olevan annettavaa. Kiinnosti kuitenkin tehtävän ratkaisu, joten turvauduin tehtävän [Tutorialiin](https://nora.codes/tutorial/an-intro-to-x86_64-reverse-engineering/)
+
+Sieltä löytyikin paljon kattavasti tietoa käänteismallinnuksesta. Pakko myöntää, että edes tutorialin kanssa koodin kääntäminen ja ymmärtäminen oli todella haastavaa. Käytännössä kuitenkin, ohjelman koodin idea on kääntää "password1" salasana ASCII-muunnettuun versioon ja sen jälkeen vielä vähentää jokaisesta merkistä 1.
+
+**int argc** ARGument Count. Kokonaisluku, joka kertoo komentoriviparametrien lukumäärän.
+**long argv** ARGument Vector. Taulukko osoittimista, jotka viittaa komentorivillä annettuihin parametreihin.
+
+**char password** käyttäjän syöte
+**undefined8 return** odotettu ASCII muunnettu salasana
+**long index** ohjelman palautusarvo
+**char comparison** laskuri/vertaaja merkkijonolle
+
+![K40](40.png)
+
+Myönnettäköön, ettei vieläkään täyttä käsitystä onko muutokset edes lähellä. Nämä kuitenkin tuntui itselle loogisilta tarkastellessa tutoriaalia. Sielläkään ei täyttä koodia paljasteta.
+
+Ohjelma kääntää password1 salasanan ASCII-muunnettuun versioo, minkä syötteeksi tulee **"o`rrvnqc0"**. Testataan tätä käytäntöön.
+
+![K41](41.png)
+
+Toimiihan se. Syötteeseen pitää lisätä kenoviiva, koska ilman sitä shell yrittäisi tulkita ` jälkeistä osana omaa syntaksia. Tutoriaalista löytyi myös virhe koodissa, mikä mahdollistaa "" käyttämisen salasana.
 
 ## Lähteet
 
@@ -197,4 +247,8 @@ Rangeforce. Patching Binaries With Ghidra. Luettavissa: https://materials.rangef
 NoraCodes GitHub. Some Crackmes. Luettavissa: https://github.com/NoraCodes/crackmes Luettu 14.11.2024
 
 Serverfault. How to escape ! in password?. Luettavissa: https://serverfault.com/questions/413582/how-to-escape-in-password Luettu: 14.11.2024
+
+StackOverflow. Why unsigned int 0xFFFFFFFF is equal to int -1? Luettavissa: https://stackoverflow.com/questions/1863153/why-unsigned-int-0xffffffff-is-equal-to-int-1 Luettu 14.11.2024
+
+Leonora Tindall. An Intro to x86_64 Reverse Engineering. Luettavissa: https://nora.codes/tutorial/an-intro-to-x86_64-reverse-engineering/ Luettu 15.11.2024
 
