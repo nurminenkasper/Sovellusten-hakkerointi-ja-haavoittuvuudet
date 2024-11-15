@@ -106,7 +106,7 @@ Asennellaan Nora CrackMe tehtäviä varten Git, jotta saadaan helposti kloonattu
 
 ![K18](18.png)
 
-Luonnollisetsi kloonataan git käyttäen perään tarpeelliset tiedostot virtuaalikoneelle.
+Luonnollisetsi kloonataan repository git käyttäen, että saadaan tarpeelliset tiedostot virtuaalikoneelle.
 
 ![K19](19.png)
 
