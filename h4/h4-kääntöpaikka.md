@@ -11,6 +11,11 @@
 
 ## x) Lue/katso/kuuntele ja tiivistä
 
+### Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat')
+- Videolla käydään läpi PicoCTF 'bbbloat' tehtävän käänteismallinnusta
+- Ghidran asentamisen ja käyttämisen lisäksi, videolla käydään lyhyesti läpi myös strace & ltrace sekä objdump käyttöä.
+- Ghidraa suorittaessa käytiin läpi, miten Ghidran Strings ikkunaa hyödynnetään binääristä tietojen löytämiseen.
+- Videossa painotetaan, miten tärkeää on yrittää ymmärtää koodia ja miettiä, mitä se tekee ymmärtääksesi tehtävän ratkaisun.
 
 ## a) Asenna Ghidra.
 Ghidran asentaminen Debian 12 käyntiin. Asennellaan ensin sitä varten OpenJDK (Open Java Development Kit).
