@@ -11,3 +11,10 @@
 
 ## a) Lab1
 
+
+## Lähteet
+
+Karvinen T. h5 Se elää! Tero Karvisen Verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/#h5-se-elaa Luettu 23.11.2024
+
+GeeksForGeeks. Segmentation Fault in C++. Luettavissa: https://www.geeksforgeeks.org/segmentation-fault-c-cpp/ Luettu 23.11.2024
+
