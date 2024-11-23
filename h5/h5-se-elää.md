@@ -72,6 +72,8 @@ Testataan vielä, onko ohjelmasta kadonnut segmentointi virhe.
 
 ![K9](9.png)
 
+## b) Lab2
+
 ## Lähteet
 
 Karvinen T. h5 Se elää! Tero Karvisen Verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/#h5-se-elaa Luettu 23.11.2024
