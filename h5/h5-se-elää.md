@@ -74,9 +74,20 @@ Testataan vielä, onko ohjelmasta kadonnut segmentointi virhe.
 
 ## b) Lab2
 
+
+## b) Lab3
+
 ## Lähteet
 
 Karvinen T. h5 Se elää! Tero Karvisen Verkkosivut. Luettavissa: https://terokarvinen.com/application-hacking/#h5-se-elaa Luettu 23.11.2024
 
 GeeksForGeeks. Segmentation Fault in C++. Luettavissa: https://www.geeksforgeeks.org/segmentation-fault-c-cpp/ Luettu 23.11.2024
+
+Sovellusten hakkerointi ja haavoittuvuudet - ICI012AS3A-3001 Moodle. 01-GDB.pdf. Luettu 23.11.2024
+
+Darkdust. GBD cheatsheet. Luettavissa: https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf Luettu: 23.11.2024
+
+RedHat. The GDB developer's GNU Debugger tutorial, Part 1: Getting started with the debugger. Luettavissa: https://developers.redhat.com/articles/the-gdb-developers-gnu-debugger-tutorial-part-1-getting-started-with-the-debugger# Luettu: 23.11.2024
+
+Tehtävä b) sisällössä yritetty hyödyntää ChatGPT-4 -kielimallia.
 
