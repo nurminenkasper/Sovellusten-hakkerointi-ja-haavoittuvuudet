@@ -12,11 +12,14 @@
 ## x) Lue/katso/kuuntele ja tiivistä
 
 ### Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations
-**Terminology** - 
+**Terminology**: 
 
-**Simple XOR** - 
+**Simple XOR**: 
 
-**Large Numbers** - 
+**Large Numbers**:
+
+### Karvinen 2024: Python Basics for Hackers
+
 
 ## a) Convert hex to base64
 
