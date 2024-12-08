@@ -73,11 +73,26 @@ Lisäsin jälleen loppuun useamman eri tulostuksen ohjelmalle missä nähdään 
 Valmis tuotos näyttää toimivan! Tehtävä oli kyllä itselle todella vaikea, työtunteja meni jo niin paljon etten edes pitänyt enää kirjaa kaikesta käytetystä ajasta. Lisäksi jouduin hyödyntämään valmiita ratkaisuja sekä tekoälyä (ChatGPT) tehtävän ymmärtämiseen ja onnistumiseen.
 
 ## c) Single-byte XOR cipher
-Lähdin ratkaisemaan tätä, mutta 
+Lähdin ratkaisemaan tätä, mutta kävi kyllä nopeasti selväksi ettei omat rahkeet tällä aikataululla riitä tämän ratkaisuun. Halusin kuitenkin tietää, miten tehtävä ratkaistaan, jotta voisin oppia enemmän. Lähdin hakemaan tietoa videoista ja käyttämään tekoälyä ratkaisuun.
 
-Tehtävä toistaiseksi tekemättä. 
+![K10](10.png)
+
+Koodissa annettu hex-merkkijono muunnetaan tavuiksi. Tämän jälkeen XOR-operaatiota suoritetaan yksittäisellä avaimella. Tehtävässä annettua sanaa EGAOIN SHRDLU hyödynnetään dekoodaamaan ja arvioimaan, eli purkamaan viesti. Tämän jälkeen käydään läpi kaikki 256 mahdollista XOR-avainkandidaattia ja valitaan paras avain, joka antaa suurimman pistemäärän. Tämän perusteella tulostetaan paras löytynyt avain ja viesti, joka pitäisi olla englantia.
+
+![K11](11.png)
+
+Toimiihan se. Helpolta tämä ei vieläkään itselle tunnu ja käytin lukuisia tunteja esimerkiksi malliesimerkkien videoita katsomalla. Vaikeaa on itselle tämä aiheena, pakko se on myöntää.
 
 ## d) Detect single-character XOR
+Tätä lähdin ratkomaan ihan vastaavalla tavalla hyödyntämällä materiaalia ja tekoälyä.
+
+![K12](12.png)
+
+Ratkaisussa on 4.txt syötettynä pitkä merkkijono mikä annettu tehtävänannossa ja se syötetään ohjelmalle. Dekoodataan siitä aikaisempaa tehtävää vastaavalla tavalla kaikki rivit ja kokeillaan jokaiselle riville mahdollisia 256 XOR-avainarvoja. Niistä valitaan paras tulos, joka tuottaa tekstiä ja näyttää sen englanninkielenä. Tulostetaan lopussa paras rivi ja siitä käännetty teksti.
+
+![K13](13.png)
+
+Tämän ratkaisu ehkä hieman auttoi ymmärtämään edellsitä tehtävää, sillä siinä käytetiin samaa tekniikkaa. Pitää kyllä ehdottomasti perehtyä lisää aiheeseen ja yrittää ratkoa lisää tehtäviä myöhemmin. Vaikea, mutta ihan mielenkiintoienn aihe.
 
 ## Lähteet
 - Karvinen T. h7 Uhagre2. Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu 4.12.2024
@@ -92,4 +107,4 @@ Tehtävä toistaiseksi tekemättä.
 - NCC Group Global. Cryptopals Guided Tour - 02 - Fixed XOR. Katsottavissa: https://www.youtube.com/watch?v=PeCTdtgRhVg Katsottu: 6.12.2024
 - Justin Steven. Computer Hacking - Cryptopals 1/n (Single-byte XOR cipher). Katsottavissa: https://youtu.be/177txy8eiqk?si=B9J1ty74IqBkH_Jx Katsottu: 6.12.2024
 - Schneier, Bruce. Applied Cryptography, 2nd Edition. Luettu 8.12.2024
-- Tehtävä b) sisällössä yritetty hyödyntää ChatGPT-4 -kielimallia.
+- Tehtävä b, c, d) sisällössä yritetty hyödyntää ChatGPT-4 -kielimallia.
