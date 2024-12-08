@@ -13,7 +13,9 @@
 
 ### Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations
 **Terminology** - 
+
 **Simple XOR** - 
+
 **Large Numbers** - 
 
 ## a) Convert hex to base64
