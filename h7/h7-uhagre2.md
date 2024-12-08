@@ -89,3 +89,4 @@ Valmis tuotos näyttää toimivan! Tehtävä oli kyllä itselle todella vaikea, 
 - NCC Group Global. Cryptopals Guided Tour - 02 - Fixed XOR. Katsottavissa: https://www.youtube.com/watch?v=PeCTdtgRhVg Katsottu: 6.12.2024
 - Justin Steven. Computer Hacking - Cryptopals 1/n (Single-byte XOR cipher). Katsottavissa: https://youtu.be/177txy8eiqk?si=B9J1ty74IqBkH_Jx Katsottu: 6.12.2024
 - Schneier, Bruce. Applied Cryptography, 2nd Edition. Luettu 8.12.2024
+- Tehtävä b) sisällössä yritetty hyödyntää ChatGPT-4 -kielimallia.
