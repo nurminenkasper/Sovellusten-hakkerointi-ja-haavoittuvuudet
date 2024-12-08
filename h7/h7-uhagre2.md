@@ -73,6 +73,9 @@ Lisäsin jälleen loppuun useamman eri tulostuksen ohjelmalle missä nähdään 
 Valmis tuotos näyttää toimivan! Tehtävä oli kyllä itselle todella vaikea, työtunteja meni jo niin paljon etten edes pitänyt enää kirjaa kaikesta käytetystä ajasta. Lisäksi jouduin hyödyntämään valmiita ratkaisuja sekä tekoälyä (ChatGPT) tehtävän ymmärtämiseen ja onnistumiseen.
 
 ## c) Single-byte XOR cipher
+Lähdin ratkaisemaan tätä, mutta 
+
+Tehtävä toistaiseksi tekemättä. 
 
 ## d) Detect single-character XOR
 
