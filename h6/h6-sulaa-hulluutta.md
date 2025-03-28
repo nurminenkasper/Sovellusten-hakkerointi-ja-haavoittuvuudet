@@ -7,7 +7,7 @@
 - G.Skill DDR4 2x16gb 3200MHz CL16
 - 2x SK hynix Platinum P41 2TB PCIe NVMe Gen4
 - Sapphire Radeon RX 7900 XT NITRO+ Vapor-X
-- Windows 11 Home
+- Windows 11 Home 24H2
 
 ## a) Tutki tiedostoa h1.jpg jo opituilla työkaluilla.
 Tehtävän aloittamista varten oli luonnollsiesti ladattava h1.jpg, mitä tutkia. Käytin Teron sivuille wget komentoa hakeakseni sen.
