@@ -1,5 +1,5 @@
-# Sovellusten-hakkerointi-ja-haavoittuvuudet
-Homework reports for Haaga-Helia application hacking and vulnerabilities course
+# Sovellusten hakkerointi ja haavoittuvuudet
+Homework reports for Haaga-Helia application hacking and vulnerabilities course. Reports in Finnish.
 
 ## Tehtävä raportit
 - [Viikko 1](h1/h1-korkeat-standardit.md)
