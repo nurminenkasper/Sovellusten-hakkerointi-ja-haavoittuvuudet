@@ -11,5 +11,4 @@ Homework reports for Haaga-Helia application hacking and vulnerabilities course
 - [Viikko 7](h7/h7-uhagre2.md)
 
 ## Lipunryöstö (CTF)
-- 8/13 Lippua.
 - Kilpailun sijoitus jaettu 3. sija
